@@ -10,7 +10,7 @@ namespace Bonus.Dw
             //Console.WriteLine(Tuplas.tuplas(11,16));
             //Tuplas.Run();
             // ExpLambdaFunc.Run();
-            FuncionesLocales.Run();
+            Descontructores.Run();
           
         }
     }

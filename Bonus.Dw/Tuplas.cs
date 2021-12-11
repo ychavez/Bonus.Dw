@@ -21,7 +21,7 @@ namespace Bonus.Dw
             
             (int num1, int num2) = tuplas(34, 56);
 
-          //  Console.WriteLine($"{num1} {num2}");
+            Console.WriteLine($"{num1} {num2}");
 
 
             var miFuncion = new Func<int, int, (int suma, int multiplicacion)>((x, y) => (x + y, x * y));

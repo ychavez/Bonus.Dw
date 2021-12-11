@@ -14,7 +14,7 @@ namespace Bonus.Dw
             => mensaje("esto fue un",1);
 
         public static void EvaluarNumeroAction(int numero)
-            => ImprimirMesaje((s,y) => Console.WriteLine($"{s} numero grande."));
+            => ImprimirMesaje((s, y) =>  Console.WriteLine($"{s} numero grande."));
 
         public static void saludosMax()
             => ImprimirMesaje((s,y) => Console.WriteLine($"{s} Hola Max"));
